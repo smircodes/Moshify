@@ -1,6 +1,6 @@
 :root {
   --color-primary: #00b7a8;
-  --color-secondary: #159895;
+  --color-secondary: #82dbd8;
   --color-accent: #ed6363;
   --color-headings: #0c084c;
   --color-body: #1a5f7a;
@@ -78,5 +78,36 @@ a {
 @media screen and (min-width: 1024px) {
   .link-arrow {
     font-size: 1.5rem;
+  }
+}
+
+/* Badges */
+
+.badge {
+  border-radius: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  white-space: nowrap;
+  color: #fff;
+}
+.badge--primary {
+  background-color: var(--color-primary);
+}
+
+.badge--secondary {
+  background: var(--color-secondary);
+}
+
+.badge--small {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .badge {
+    font-size: 1.5rem;
+  }
+  .badge--small {
+    font-size: 1.2rem;
   }
 }
