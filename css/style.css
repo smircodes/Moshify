@@ -482,7 +482,7 @@ a {
   }
 }
 
-/* collapsibles */
+/* Collapsibles */
 
 .collapsible__header {
   display: flex;
@@ -508,4 +508,60 @@ a {
 }
 .collapsible--expanded .collapsible__chevron {
   transform: rotate(0);
+}
+
+/* Blocks */
+
+/* Navigation Bar */
+
+.nav {
+  display: flex;
+  background: #000;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
+.nav__list {
+  margin: 0;
+  width: 100%;
+}
+.nav__item {
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid #222;
+}
+.nav__item > a {
+  color: #d2d0db;
+  transition: color 0.3s ease;
+}
+.nav__item > a:hover {
+  color: #fff;
+}
+.nav__toggler {
+  opacity: 0.5;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+}
+.nav.collapsible--expanded .nav__toggler {
+  opacity: 1;
+  box-shadow: 0 0 0 3px #666;
+  border-radius: 5px;
+}
+.nav__brand {
+  transform: translateY(5px);
+}
+@media screen and (min-width: 768px) {
+  .nav__list {
+    width: auto;
+    display: flex;
+    max-height: 100%;
+    opacity: 1;
+  }
+  .nav__item {
+    border: 0;
+    font-size: 1.6rem;
+  }
+  .nav__toggler {
+    display: none;
+  }
 }
