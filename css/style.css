@@ -789,3 +789,69 @@ a {
     max-width: 700px;
   }
 }
+
+/* Footer Block */
+
+.footer {
+  background: #232323;
+}
+.footer a {
+  color: #777;
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: #fff;
+}
+.footer__heading {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.footer__section {
+  padding: 2rem;
+  border-bottom: 1px solid #393939;
+}
+.footer__section .list {
+  margin: 0;
+}
+.footer__brand {
+  text-align: center;
+  margin-top: 5rem;
+}
+.footer__copyright {
+  font-size: 2.1rem;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    font-size: 1.5rem;
+  }
+  .footer__heading {
+    font-size: 1.6rem;
+  }
+  .footer__brand {
+    order: -1;
+    margin-top: 1rem;
+  }
+  .footer__brand img {
+    /* TODO: Consider refactoring this & applying it to all images */
+    width: 100%;
+    max-width: 230px;
+  }
+  .footer__copyright {
+    font-size: 1.5rem;
+  }
+  .footer__sections {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+  .footer__section {
+    border: 0;
+  }
+  .footer .collapsible__content {
+    max-height: 100%;
+    opacity: 1;
+  }
+  .footer .collapsible__chevron {
+    display: none;
+  }
+}
