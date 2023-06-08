@@ -4,12 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Deploy your website in less than 1 hours."
+    />
+    <meta property="og:title" content="SamiraMiss..." />
+    <meta property="og:type" content="website" />
     <title>SamiraMiss - Moshify</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
@@ -44,7 +51,7 @@
         <picture data-aos="zoom-in-right">
           <source
             type="image/webp"
-            srcset="images/banner.webp 1x image/banner@2x.webp 2x"
+            srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
           />
           <source
             type="image/png"
@@ -86,7 +93,7 @@
         </ul>
       </div>
     </section>
-    <section class="block block-plans" data-aos="fade-up">
+    <div class="block block-plans" data-aos="fade-up">
       <div class="container">
         <div class="grid grid--1x3">
           <div class="plan">
@@ -153,7 +160,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <section class="block container">
       <header class="block__header">
         <h2>Host on the Cloud to Keep Growing</h2>
@@ -278,7 +285,7 @@
             type="image/png"
             srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
           />
-          <img src="images/ipad.png" />
+          <img src="images/ipad.png" alt="" />
         </picture>
         <ul class="list" data-aos="fade-down">
           <li>
@@ -399,13 +406,13 @@
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">products</h2>
 
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Website Hosting</a></li>
@@ -415,13 +422,13 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">company</h2>
 
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">About</a></li>
@@ -431,13 +438,13 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">support</h2>
 
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Contact</a></li>
@@ -447,13 +454,13 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">domains</h2>
 
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Domain Checker</a></li>
