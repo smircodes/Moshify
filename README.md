@@ -30,19 +30,19 @@ Welcome to Moshify, a stunning HTML/CSS project that combines modern design with
 1. Deploy the Moshify project to your hosting provider of choice and share your stunning website with the world.
 
 ## Credits
-Moshify was created by @aaramiss and is inspired by the designs and styles found on various modern websites.
+Moshify was created by [aaramiss](https://aaramiss.github.io/Moshify/) and is inspired by the designs and styles found on various modern websites.
 
 The project uses the following external libraries and resources:
-- [Bootstrap]([url](https://getbootstrap.com/))
-- [Font Awesome]([url](https://fontawesome.com/))
-- [jQuery]([url](https://jquery.com/))
-- [Animate.css]([url](https://animate.style/))
+- [Bootstrap](https://getbootstrap.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [jQuery](https://jquery.com/)
+- [Animate.css](https://animate.style/)
 
 ## License
-Moshify is released under the [MIT License]([url](https://github.com/aaramiss/Moshify/blob/main/LICENSE)). You are free to use this project for personal and commercial purposes. Feel free to customize it, contribute to it, or build upon it to suit your needs.
+Moshify is released under the [MIT License](https://github.com/aaramiss/Moshify/blob/main/LICENSE). You are free to use this project for personal and commercial purposes. Feel free to customize it, contribute to it, or build upon it to suit your needs.
 
 Please note that while Moshify provides a solid foundation for your website, it does not include any backend functionality or interactive features out of the box. Additional coding may be required to add dynamic elements such as contact forms, interactive galleries, or database integration.
 
 We hope you enjoy using Moshify and create beautiful websites with it. If you have any questions, suggestions, or issues, please don't hesitate to reach out. Happy coding!
 
-[View Demo]([url](https://aaramiss.github.io/Moshify/)https://aaramiss.github.io/Moshify/)
+[View Demo](https://aaramiss.github.io/Moshify/)
