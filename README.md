@@ -45,4 +45,4 @@ Please note that while Moshify provides a solid foundation for your website, it 
 
 We hope you enjoy using Moshify and create beautiful websites with it. If you have any questions, suggestions, or issues, please don't hesitate to reach out. Happy coding!
 
-[View Demo](https://aaramiss.github.io/Moshify/)
+[View Demo](https://smircodes.github.io/Moshify/)
